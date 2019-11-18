@@ -1,10 +1,10 @@
 # MB-Lab
 
-MB-Lab is a community developed and supported project based off ManuelBastioniLAB.
+Character creation tool for Blender
 
 ## Blender 2.8 Support
 
-MB-Lab has been ported to work with Blender 2.80 BETA.
+MB-Lab has been developed to work with Blender 2.80
 
 ## Contributors wanted! Python programmers needed!
 
@@ -12,22 +12,33 @@ We are a small bunch of developers and artists but we always need more! MB-Lab's
 
 ## About
 
-Manuel Bastioni was active in open source projects since 1999.
-
-Member of Blender Artist community since 2002.
-
-He was one of the authors of "The Official Blender 2.3 guide, the open 3D creation suite", writing the chapter "From Blender to YafRay Using YableX"
-
-In 2000 he started Makehuman Project, a free and open source software for the modelling of 3d photo-realistic characters, winner of "Suzanne Award" as the best python script for Blender 3D in 2004. He left the MakeHuman project in 2016.
-
-He is the author of Manuel Bastioni Laboratory, a free and open source add-on for Blender to create 3d humanoids. It includes the results of years of prototyping and studies realized by him during the development of his 3d graphics projects.
+MB-Lab is a community developed and supported project based off ManuelBastioniLAB.
 
 This fork is an attempt to keep this addon going forward as the original author is no longer developing ManuelBastioniLAB
 
-## MB-Lab 1.7.3 Notes
+# MB-Lab 1.7.6
 
-    Auto Updater added so notifications and updates can happen within Blender
-    Minor logging error fixes
+## Added
+
+- New Skin Shader, MB-Lab Skin 2 added to the Realistic Humans
+- New Tone maps based on character selection
+- New Latino Model Type added to MB-Lab
+- New South American Phenotype added
+- New texture masks for skin shader
+- New Nails shader added
+
+## Changed
+
+- Material Engine updated for new skin shader
+- Alphabetized the characters list
+- Modified freckle masks
+- Changed structure of humanoid_library.blend
+- Added model license types in character selection menu
+
+## Bug Fixes
+
+- Fixed MBLab_fur for EEVEE, renamed to MBLab_eyelash
+- Fixed MBLab_human_eyes SSS rendering artifact in EEVEE
 
 ## ManuelBastioniLAB 1.6.1a
 
